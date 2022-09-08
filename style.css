@@ -1,0 +1,184 @@
+/*barra principal (menu)*/
+
+.box {
+    max-width: 75%;
+    max-height: 75%;
+    margin: 0 auto;
+}
+
+.box .botao h2 {
+    background-color: #34559a;
+    padding: 30px;
+    font: 20px;
+    color: #fff;
+    font-family: arial, ;
+    display: flex;
+}
+
+.botao button {
+    position: relative;
+    top: -75px;
+    float: right;
+    margin-right: 20px;
+    border: none;
+    border-radius: 5px;
+    font-family: arial, ;
+    cursor: pointer;
+}
+
+.botao button a {
+    color: #34559a;
+    text-decoration: none;
+}
+
+/*fim da barra principal (menu)*/
+
+/*formulario*/
+
+.inputbox {
+    position: relative;
+    max-width: 99.4%;
+    height: 100px;
+}
+
+.inputUser {
+    width: 100%;
+    height: 40px;
+    border-color: #34559a;
+}
+
+textarea {
+    width: 100%;
+    border-color: #34559a;
+
+}
+
+/*fim do formulario*/
+
+/*botão de enviar do formulario*/
+
+.inputbox button {
+    float: right;
+    background-color: #34559a;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font: 60px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+/*fim do botão*/
+
+/*cards de noticia*/
+
+.cartãototal {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.cartão {
+    width: 400px;
+    height: 450px;
+    background-color: #eeeeee;
+    padding: 15px;
+}
+
+.cartão img {
+    top: 0;
+    width: 100%;
+}
+
+.cartão h3 {
+    font: 13px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.cartão p {
+    font: 12px;
+    font-family: arial 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.cartão button {
+    background-color: #34559a;
+    border: none;
+    width: 100%;
+    height: 40px;
+    color: #fff;
+    cursor: pointer;
+
+}
+
+/*fim dos cards*/
+
+/*estilos da página Notícia*/
+
+.noticia1 img {
+    width: 400px;
+}
+
+.noticia1 {
+    display: flex;
+    width: 900px;
+    height: 600px;
+    float: right;
+    position: absolute;
+    right: 250px;
+    top: 140px;
+
+}
+
+.noticia1 h3 {
+    position: absolute;
+    display: flex;
+    margin-top: -5px;
+}
+
+.ntctexto {
+    display: flex;
+    width: 1000px;
+    height: auto;
+    margin-top: 50px;
+    margin-left: -160px;
+    font: 12px;
+
+
+}
+
+.ntcimg img {
+    width: 300px;
+    display: flex;
+    margin: 40px;
+}
+
+.vn {
+    width: 200px;
+    height: 30px;
+    cursor: pointer;
+    position: absolute;
+    left: 900px;
+    border: none;
+    background-color: #34559a;
+    color: #fff;
+}
+
+.vn a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+/*fim dos estilos da Notícia*/
+
+
+/* botão ler noticia da página inicia*/
+.nt a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0;
+}
+
+/*fim dos estilos do botão*/
